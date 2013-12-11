@@ -36,14 +36,17 @@ body {
 }
 
 /* Portrait layout (default) */
-.app {
-    background-color:#008B8B; /* 170px x 200px */
-    position:absolute;             /* position in the center of the screen */
-    height:50px;                   /* text area height */
-    width:225px;                   /* text area width */
-    text-align:center;
-	left:50%;
-	top:50%
+#app {
+margin:5px auto auto auto ;
+	width:500px;
+	height:500px;
+  /*   background-color:#008B8B; /* 170px x 200px */
+   /*  position:absolute;   */           /* position in the center of the screen */
+   /*  height:50px;   */                 /* text area height */
+  /*   width:225px;     */               /* text area width */
+   /*  text-align:center; */
+	/* left:50%; */
+	/* top:50% */ */
      /* offset vertical: half of image height and text area height */
                                    /* offset horizontal: half of text area width */
 }
@@ -103,21 +106,27 @@ h1 {
     -webkit-animation:fade 3000ms infinite;
 }
 
-.ip{
-position:absolute;
-    left: 140px;
-	top:280px;
+#ip2{
+position:relative;
+margin-left:400px;
+margin-top:400px;
 
 }
-.ip2{
-position:absolute;
-    left: 400px;
-	top: 500px
+#ip{
+width:120px;
+height:123px;
+    position:absolute;
+   margin-left:190px;
+	top:200px 
 
 }
 
-.center
+#center
 {
+width:300px;
+margin-left:100px;
+height:200px;
+padding:0px;
 position:absolute;
-    left: 50px;
+
 }
