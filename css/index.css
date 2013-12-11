@@ -37,7 +37,7 @@ body {
 
 /* Portrait layout (default) */
 #app {
-margin:5px auto auto auto ;
+margin:100px auto auto auto ;
 	width:500px;
 	height:500px;
   /*   background-color:#008B8B; /* 170px x 200px */
@@ -115,7 +115,7 @@ margin-top:400px;
 #ip{
 width:120px;
 height:123px;
-    position:absolute;
+    position:relative;
    margin-left:190px;
 	top:200px 
 
